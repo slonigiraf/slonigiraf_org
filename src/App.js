@@ -17,13 +17,13 @@ function App() {
       </header>
       <Container>
         <Row>
-          <Col md={3} sm={0}>&nbsp;</Col>
-          <Col md={6} sm={12}>
+          <Col lg={1} md={1} sm={0}>&nbsp;</Col>
+          <Col lg={10} md={10} sm={12}>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe title="Promo video" src="https://www.youtube.com/embed/ea72-Nt5oOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </Col>
-          <Col md={3} sm={0}>&nbsp;</Col>
+          <Col lg={1} md={1} sm={0}>&nbsp;</Col>
         </Row>
         <Row>
 
