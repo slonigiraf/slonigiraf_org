@@ -29,7 +29,7 @@ function App() {
 
           <Col md={12} sm={12}>
             <a href="https://slon-i-giraf.ru/app/work?view=findTeacherView&knowledgeCourse=77&utm_content=1606559945976"><Button variant="primary" size="lg">Join us for free</Button></a>
-            <a href="https://info.uniswap.org/pair/0x2B8795475a61C85636E1Ee13fd21ca1B7C860245"><Button variant="secondary" size="lg"> <Uniswap />Swap SLON/ETH</Button></a>
+            <a href="https://info.uniswap.org/pair/0x2B8795475a61C85636E1Ee13fd21ca1B7C860245"><Button variant="secondary" size="lg"> <Uniswap />&nbsp;Swap SLON/ETH</Button></a>
           </Col>
 
         </Row>
