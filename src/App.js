@@ -41,7 +41,7 @@ function MyComponent() {
         <Row>
           <Col md={12} sm={12}>
             <br />
-            <a href="https://t.me/slonigiraf">{t('Follow us on Telegram or')}: </a>
+            <a href="https://t.me/slonigiraf">{t('Follow us on Telegram')}, </a>
             <a href="https://wa.me/79099319358">{t('WhatsApp')}, </a>
             <a href="mailto:info@slon-i-giraf.ru">{t('Email')}</a>
           </Col>
