@@ -51,9 +51,22 @@ function MyComponent() {
   );
 }
 
+// loading component for suspense fallback
+const Loader = () => (
+  <div className="App" style={{
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}>
+    <img src={logo} className="App-logo" alt="logo" />
+    <br/>
+    &nbsp;&nbsp;&nbsp;loading...
+  </div>
+);
+
 export default function App() {
   return (
-    <Suspense fallback="loading">
+    <Suspense fallback={<Loader />}>
       <MyComponent />
     </Suspense>
   );
