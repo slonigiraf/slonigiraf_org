@@ -12,6 +12,7 @@ function MyComponent() {
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   };
+  
   return (
     <div className="App" style={{
       display: 'flex',
@@ -23,7 +24,7 @@ function MyComponent() {
           <Col lg={1} md={1} sm={0}>&nbsp;</Col>
           <Col lg={10} md={10} sm={12}>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe title="Promo video" src="https://www.youtube.com/embed/zmBrRB7o8Sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="Promo video" src={t("youtube_promo")} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </Col>
           <Col lg={1} md={1} sm={0}>&nbsp;</Col>
