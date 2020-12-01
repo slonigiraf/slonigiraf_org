@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { Button, Navbar, NavItem, Nav, Container, Row, Col } from "react-bootstrap";
 import logo from './logo.svg';
+import loader from './loader.svg';
 import { ReactComponent as Uniswap } from './uniswap.svg';
 import 'bootswatch/dist/cerulean/bootstrap.min.css'; // Added this :boom:
 import './App.css';
@@ -59,9 +60,7 @@ const Loader = () => (
     alignItems: 'center',
     justifyContent: 'center',
   }}>
-    <img src={logo} className="App-logo" alt="logo" />
-    <br/>
-    &nbsp;&nbsp;&nbsp;loading...
+    <img src={loader} className="App-logo" alt="logo" />
   </div>
 );
 
