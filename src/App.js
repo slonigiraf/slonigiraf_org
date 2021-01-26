@@ -6,6 +6,7 @@ import { ReactComponent as Uniswap } from './uniswap.svg';
 import 'bootswatch/dist/cerulean/bootstrap.min.css'; // Added this :boom:
 import './App.css';
 import { useTranslation } from 'react-i18next';
+import KoFi from "./KoFi";
 
 
 function MyComponent() {
@@ -14,6 +15,7 @@ function MyComponent() {
     i18n.changeLanguage(lng);
   };
   const getCurrentLng = () => i18n.language || window.localStorage.i18nextLng || '';
+  const support = t('Support');
 
   const languages = [
     { code: 'ar', name: 'العربية' },
@@ -57,7 +59,7 @@ function MyComponent() {
 
           <Col md={12} sm={12}>
             {/* <button onClick={() => changeLanguage('en')}>en</button> */}
-            <a href="https://slon-i-giraf.ru/app/work?view=findTeacherView&knowledgeCourse=77&utm_content=1606559945976"><Button variant="primary" size="lg">{t('Join us for free')}</Button></a>
+            <a href={t("join_link")}><Button variant="primary" size="lg">{t('Join us for free')}</Button></a>
             <a href="https://info.uniswap.org/pair/0x2B8795475a61C85636E1Ee13fd21ca1B7C860245"><Button variant="secondary" size="lg"> <Uniswap />&nbsp;{t('Swap SLON/ETH')}</Button></a>
           </Col>
 
@@ -78,6 +80,18 @@ function MyComponent() {
             </Dropdown>
           </Col>
         </Row>
+        <Row>
+          <Col md={12} sm={12}>
+            <KoFi color="#31a5e8" id="M4M02YJTN" label={support} />
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} sm={12}>
+            <small>Bitcoin: bc1q60wh08cmde28pnaym0sj5fggwupvlseh6th8q7<br/>
+              Ethereum: 0x3AE0CC7D1d89fE694922ad2f7A3fE4dD82443ded</small>
+          </Col>
+        </Row>
+
       </Container>
 
     </div>

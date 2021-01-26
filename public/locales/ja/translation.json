@@ -1,8 +1,10 @@
 {
     "youtube_promo": "https://www.youtube.com/embed/DpLToCGzWns",
+    "join_link": "https://slon-i-giraf.ru/app/work?view=findTeacherView&knowledgeCourse=77&utm_content=1606559945976",
     "Join us for free": "参加する",
     "Swap SLON/ETH": "トークンのスワップ",
     "Follow us on Telegram": "Telegram ルで情報を受け取る",
     "WhatsApp": "WhatsApp",
-    "Email": "Email"
+    "Email": "Email",
+    "Support": "寄付"
 }
