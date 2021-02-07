@@ -38,6 +38,10 @@ function MyComponent() {
   languages.map((lng, index) => codeToName.set(lng.code, lng.name));
   codeToName.set('', "English");
 
+  let languageMenuCaption = codeToName.get(getCurrentLng());
+  if (languageMenuCaption == undefined) {
+    languageMenuCaption = "Language";
+  }
 
   return (
     <div className="App" style={{
@@ -72,7 +76,7 @@ function MyComponent() {
             <a href="mailto:info@slon-i-giraf.ru">{t('Email')}</a>
             <Dropdown>
               <Dropdown.Toggle variant="link" id="dropdown-basic">
-                {codeToName.get(getCurrentLng())}
+                {languageMenuCaption}
               </Dropdown.Toggle>
               <Dropdown.Menu>
                 {languages.map((lng, index) => <Dropdown.Item value={lng.code} onClick={() => changeLanguage(lng.code)}>{lng.name}</Dropdown.Item>)}
