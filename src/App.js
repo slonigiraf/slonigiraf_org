@@ -63,7 +63,7 @@ function MyComponent() {
 
           <Col md={12} sm={12}>
             {/* <button onClick={() => changeLanguage('en')}>en</button> */}
-            <a href={t("join_link")}><Button variant="primary" size="lg">{t('Join us for free')}</Button></a>
+            <a href="https://t.me/slonigiraf"><Button variant="primary" size="lg">{t('Join us for free')}</Button></a>
             <a href="https://info.uniswap.org/pair/0x2B8795475a61C85636E1Ee13fd21ca1B7C860245"><Button variant="secondary" size="lg"> <Uniswap />&nbsp;{t('Swap SLON/ETH')}</Button></a>
           </Col>
 
