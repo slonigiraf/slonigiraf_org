@@ -1,10 +1,6 @@
 module.exports = {
   entry: "./src/js/main.js",
-  output: {
-      path:__dirname+ '/dist/',
-      filename: "bundle.js",
-      publicPath: '/'
-  },
+  output: 'standalone',
   devServer: {
       inline: false,
       contentBase: "./dist",
