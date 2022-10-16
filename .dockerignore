@@ -1,8 +1,7 @@
 Dockerfile
 .dockerignore
-#Removing comment below leads to error
-#node_modules
 npm-debug.log
 README.md
 .next
 .git
+node_modules
