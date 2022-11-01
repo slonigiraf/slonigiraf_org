@@ -21,7 +21,7 @@ const Header = props => {
                         <nav>
                             <a className="m-r-auto" href="/">
                                 {props.className == 'agency' ?
-                                    <img alt="" className="img-fluid" src="/assets/images/logo/9.png" />
+                                    <img alt="" className="img-fluid" src="/assets/images/logo/named-logo.png" />
                                     :
                                     props.className == 'dark' ?
                                         <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
