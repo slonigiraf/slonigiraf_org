@@ -1,20 +1,20 @@
-import React, { Fragment, useEffect } from 'react'
+import React, {useEffect} from 'react'
 import Head from 'next/head'
 // import Custom Components
-import Header from '../landing/header'
-import GiftSection from '../landing/git-section'
-import DemoSection from '../landing/demo'
-import PortfolioSection from '../landing/portfolio'
-import WhatinsideSection from '../landing/whatinside'
-import BlogSection from '../landing/blog'
-import ElementSection from '../landing/elements'
-import FeaturesSection from '../landing/features'
-import TestimonialSection from '../landing/testimonial'
-import RatSection from '../landing/rat'
-import FooterSection from '../landing/footer'
+import Header from './layouts/sections/slonigiraf/header'
+import BannerSection from './layouts/sections/slonigiraf/banner'
+import AboutSection from './layouts/sections/slonigiraf/about'
+import ServiceSection from './layouts/sections/slonigiraf/service'
+import VideoSection from './layouts/sections/slonigiraf/video'
+import WorkSection from './layouts/sections/slonigiraf/work'
+import PricingSection from './layouts/sections/slonigiraf/pricing'
+import ExpertSection from './layouts/sections/slonigiraf/expert'
+import TestimonialSection from './layouts/sections/slonigiraf/testimonial'
+import BlogSection from './layouts/sections/slonigiraf/blog'
+import FooterSection from './layouts/sections/slonigiraf/footer'
 
 const Home = () => {
-  
+ 
   useEffect(() => {
     document.body.style.setProperty('--primary', '#10266b')
     document.body.style.setProperty('--secondary', '#464545')
@@ -22,38 +22,36 @@ const Home = () => {
     document.body.style.setProperty('--dark', '#04185B')
   })
 
-  
-
   return (
-    <Fragment>
-      <div className="landing-page">
-      <Head>
-        <title>Unice</title>
-      </Head>
+    <div className="theme-color" >
+        <Head>
+            <title>Agency </title>
+            <meta name='Agency Layout' content='' />
+        </Head>
 
-      <Header />
+        <Header className="agency" />
 
-      <GiftSection />
+        <BannerSection />
 
-      <DemoSection />
+        <AboutSection />
 
-      <PortfolioSection />
+        <ServiceSection />
 
-      <WhatinsideSection />
+        <VideoSection />
 
-      <BlogSection />
+        <WorkSection />
 
-      <ElementSection />
+        <PricingSection />
 
-      <FeaturesSection />
+        <ExpertSection />
 
-      <TestimonialSection />
+        <TestimonialSection />
 
-      <RatSection />
+        <BlogSection />
 
-      <FooterSection />
-      </div>
-    </Fragment>
+        <FooterSection />
+
+    </div>
   )
 }
 

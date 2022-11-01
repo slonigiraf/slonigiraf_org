@@ -91,7 +91,7 @@ export default function MyApp({ Component, pageProps }) {
     <div>
       <MyFunctionComponent>
         <Component {...pageProps} />
-        <Customizer />
+        {/* <Customizer /> */}
       </MyFunctionComponent>
       <ToastContainer />
     </div>
