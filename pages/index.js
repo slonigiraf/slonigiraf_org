@@ -33,7 +33,7 @@ const Home = () => {
 
         <BannerSection />
 
-        {/* <AboutSection />
+        <AboutSection />
 
         <ServiceSection />
 
@@ -49,7 +49,7 @@ const Home = () => {
 
         <BlogSection />
 
-        <FooterSection /> */}
+        <FooterSection />
 
     </div>
   )
