@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { MENUITEMS } from '../../constant/menu';
+import { MENUITEMS } from '../../constant/old_menu';
 import {Container,Row} from 'reactstrap'
 const Nav = () => {
     const [mainmenu, setMainMenu] = useState(MENUITEMS);
