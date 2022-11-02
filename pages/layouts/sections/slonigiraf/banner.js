@@ -18,10 +18,10 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className=" btn btn-default btn-gradient">request a quote</a>
+                                            <a className=" btn btn-default btn-gradient" href='https://t.me/denisreshetov'>request a quote</a>
                                         </li>
                                         <li>
-                                            <a className="btn btn-default btn-gradient text-white active">start now</a>
+                                            <a className="btn btn-default btn-gradient text-white active" href='https://www.patreon.com/reshetovdenis'>donate</a>
                                         </li>
                                     </ul>
                                 </div>
