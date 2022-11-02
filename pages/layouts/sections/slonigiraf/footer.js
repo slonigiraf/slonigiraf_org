@@ -216,8 +216,7 @@ const Footer = () => (
                     </Col>
                     <Col md="6">
                         <div>
-                            <h6 className="copyright-text text-white text-end">Copyright © 2022 Unice by <i aria-hidden="true" className="fa fa-heart ms-1"></i> pixelstrap
-                            </h6>
+                            <h6 className="copyright-text text-white text-end">Copyright © 2022 Slonigiraf</h6>
                         </div>
                     </Col>
                 </Row>

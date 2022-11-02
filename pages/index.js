@@ -16,7 +16,7 @@ import FooterSection from './layouts/sections/slonigiraf/footer'
 const Home = () => {
  
   useEffect(() => {
-    document.body.style.setProperty('--primary', '#10266b')
+    document.body.style.setProperty('--primary', '#0368b4')
     document.body.style.setProperty('--secondary', '#464545')
     document.body.style.setProperty('--light', '#1F357D')
     document.body.style.setProperty('--dark', '#04185B')
@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className="theme-color" >
         <Head>
-            <title>Agency </title>
+            <title>Slonigiraf </title>
             <meta name='Agency Layout' content='' />
         </Head>
 

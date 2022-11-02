@@ -10,13 +10,10 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1 className="text-uppercase"><span className="bold-text">Digital</span> Agency</h1>
+                                    <h1 className="text-uppercase"><span className="bold-text">SLON</span>igiraf</h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                                        ever
-                                        since the 1500s.</p>
+                                    <p>We help people to better understand each other to accelerate the development of technology and create world peace</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
