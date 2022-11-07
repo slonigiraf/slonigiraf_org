@@ -37,17 +37,17 @@ const Expert = () => (
                 <Col lg="3" md="4">
                     <div className="format-container">
                         <h6 className="borders-before">
-                            <span>Meet our Expert</span>
+                            <span>Meet our team</span>
                         </h6>
                         <div className="format-head-text">
-                            <h2>We Will Ready For Your Services</h2>
+                            <h2>We work to facilitate mutual understanding of people</h2>
                         </div>
                         <div className="format-sub-text">
                             <p className="about-para">
-                                Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt.
+                            Our team consists of professionals in the field of education, psychology and web application development.
                             </p>
                         </div>
-                        <a className=" btn btn-default btn-gradient" href="#">view more</a>
+                        {/* <a className=" btn btn-default btn-gradient" href="#">view more</a> */}
                     </div>
                 </Col>
                 <Col lg="9" md="8">

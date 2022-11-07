@@ -34,8 +34,7 @@ const Blog = () => (
                         </div>
                         <div className="sub-title">
                             <p className="text-center">
-                                Lorem Ipsum is simply dummy text of the printing and
-                                typesetting industry. Lorem Ipsum has been
+                            Subscribe to our news to be aware of how the project develops
                             </p>
                         </div>
                     </div>
@@ -64,7 +63,7 @@ const Blog = () => (
                                                             <h5 className="blog-head">{item.title}</h5>
                                                             <p className="para2">{item.details}.....</p>
                                                             <div className="m-t-20">
-                                                                <a className="text-uppercase" href="#">read more</a>
+                                                                <a className="text-uppercase" href={item.url}>read more</a>
                                                             </div>
                                                         </div>
                                                     </div>

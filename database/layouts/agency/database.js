@@ -26,25 +26,25 @@ module.exports = {
 
     ExpertData: [
         {
-            photo: '/assets/images/event/l3-2.png',
-            title: 'Sam Rowling',
-            details: 'Team Leader - otstrab'
+            photo: '/assets/images/agency/team/reshetov.png',
+            title: 'Denis Reshetov',
+            details: 'Team Leader. Has experience in managing large projects in the field of education, as well as scientific work in the field of studying the human brain.'
         },
         {
-            photo: '/assets/images/event/l3-3.png',
-            title: 'Mark Tucker',
-            details: 'App Developer - Jumpster'
+            photo: '/assets/images/agency/team/andreeva.png',
+            title: 'Natalie Andreeva',
+            details: 'Chief Business Development Officer. Natali has many years of experience in financial management in fintech and educational projects.'
         },
         {
-            photo: '/assets/images/event/l3-4.png',
-            title: 'Sam Rowling',
-            details: 'Team Leader - otstrab'
+            photo: '/assets/images/agency/team/moskvin.png',
+            title: 'Ilya Moskvin',
+            details: 'Software Engineer. Ilya works with a wide range of technologies, from Javascript to distributed computing and blockchain.'
         },
-        {
-            photo: '/assets/images/event/l3-3.png',
-            title: 'Mark Tucker',
-            details: 'App Developer - Jumpster'
-        },
+        // {
+        //     photo: '/assets/images/event/l3-3.png',
+        //     title: 'Mark Tucker',
+        //     details: 'App Developer - Jumpster'
+        // },
     ],
 
     TestimonialData: [
@@ -76,36 +76,31 @@ module.exports = {
 
     BlogData: [
         {
-            id: 1,
-            photo: '/assets/images/agency/blog/blog-list-1.jpg',
-            title: 'Twice profit than before you',
-            date: 'June 19, 2022',
-            place: 'Phonics',
-            details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.text ever since the 1500s type specimen book '
-        },
-        {
             id: 2,
-            photo: '/assets/images/agency/blog/blog-list-2.jpg',
-            title: 'Twice profit than before you',
-            date: 'June 19, 2022',
-            place: 'Phonics',
-            details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.text ever since the 1500s type specimen book '
+            url: "https://twitter.com/slonigiraf/status/1543926080511385600",
+            photo: '/assets/images/agency/blog/web3-slon.jpg',
+            title: 'Slonigiraf has received a grant from Web3',
+            date: 'July 4, 2022',
+            place: 'Twitter',
+            details: 'We\'re glad to report that Slonigiraf has received a grant from Web3 foundation to create a blockchain module for '
         },
         {
             id: 3,
-            photo: '/assets/images/agency/blog/blog-list-3.jpg',
-            title: 'Twice profit than before you',
+            url: "https://twitter.com/slonigiraf/status/1538608621151567874",
+            photo: '/assets/images/agency/blog/ipfs-slon.jpg',
+            title: 'Slonigiraf has received a grant from IPFS',
             date: 'June 19, 2022',
-            place: 'Phonics',
-            details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.text ever since the 1500s type specimen book '
+            place: 'Twitter',
+            details: 'We\'re proud to announce that Slonigiraf has received a grant from IPFS to add p2p file storage system to SLON reputation '
         },
         {
-            id: 4,
-            photo: '/assets/images/agency/blog/blog-list-1.jpg',
-            title: 'Twice profit than before you',
-            date: 'June 19, 2022',
-            place: 'Phonics',
-            details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.text ever since the 1500s type specimen book '
-        }
+            id: 1,
+            url: "https://medium.com/@slonigiraf/recommendations-that-work-a223e28a2437",
+            photo: '/assets/images/agency/blog/slon-blog-1.jpg',
+            title: 'Recommendations that work',
+            date: 'March 24, 2022',
+            place: 'Medium',
+            details: 'A job interview is a complicated process that aimed to ensure that a candidate has enough skills. Companies spend tons of money '
+        },
     ]
 }
