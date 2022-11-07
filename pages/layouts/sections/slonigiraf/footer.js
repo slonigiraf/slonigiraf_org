@@ -11,192 +11,86 @@ const Footer = () => (
                                 <h3 className="text-white">About Us</h3>
                             </div>
                             <div className="footer-contant">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/1.png" />
-                                <div className="footer-para">
-                                    <h6 className="text-white para-address">Unice</h6>
-                                    <h6 className="text-white para-address">324 Madison Street New york City, </h6>
-                                    <h6 className="text-white para-address">NY 10001.</h6>
-                                </div>
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/named-logo.png" />
+
                                 <ul className="d-d-flex footer-social social">
                                     <li className="footer-social-list">
-                                        <a href="https://www.facebook.com/"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                        <a href="https://t.me/slonigiraf/"><i aria-hidden="true" className="fa fa-telegram"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="https://twitter.com/"><i aria-hidden="true" className="fa fa-twitter"></i></a>
+                                        <a href="https://twitter.com/slonigiraf"><i aria-hidden="true" className="fa fa-twitter"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="https://accounts.google.com/"><i aria-hidden="true" className="fa fa-google"></i></a>
+                                        <a href="https://www.facebook.com/slonigiraf"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li className="footer-social-list">
+                                        <a href="https://www.youtube.com/channel/UC4pm5EviHUXuLt7AbAyz2Eg"><i aria-hidden="true" className="fa fa-youtube"></i></a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col lg="2" md="3" sm="12">
+                    <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">services</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">services</h5>
+                            <h5 className="footer-headings">contact us</h5>
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#">Portfolio Website</a>
+                                        <a href="mailto:reshetovdenis@gmail.com">reshetovdenis@gmail.com</a>
                                     </li>
                                     <li>
-                                        <a href="#">Set up an account</a>
+                                        <a href="https://t.me/denisreshetov">@denisreshetov</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Invoice Creation</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Get Our Specials</a>
-                                    </li>
+                                   
                                 </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col lg="2" md="3" sm="12">
+                    <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">brand</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">brand</h5>
+                            <h5 className="footer-headings">learn</h5>
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#">Chat24</a>
+                                        <a href="https://github.com/slonigiraf/slon-whitepaper/blob/main/ENG.md">Whitepaper</a>
                                     </li>
                                     <li>
-                                        <a href="#">Zoom</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Alpha Payment</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Upwork</a>
+                                        <a href="https://github.com/slonigiraf/">Our Github</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col lg="2" md="3" sm="12">
+                   
+                    <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">Support</h3>
+                            <h3 className="text-white">brand</h3>
                         </div>
                         <div className="footer-contant">
-                            <h5 className="footer-headings">Support</h5>
+                            <h5 className="footer-headings">Community</h5>
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="#">For Freelancers</a>
+                                        <a href="http://ws.slonigiraf.org/#/accounts">Join</a>
                                     </li>
                                     <li>
-                                        <a href="#">For Companies</a>
+                                        <a href="http://ws.slonigiraf.org/#/democracy">Submit a proposal</a>
                                     </li>
-                                    <li>
-                                        <a href="#">For Business</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">General Help</a>
-                                    </li>
+                                    
+                                
                                 </ul>
                             </div>
                         </div>
                     </Col>
-                    <Col lg="3" md="12" sm="12" className="set-last">
-                        <div className="footer-title mobile-title">
-                            <h3 className="text-white">Post Tags</h3>
-                        </div>
-                        <div className="footer-contant">
-                            <h5 className="footer-headings">Post Tags</h5>
-                            <div className="link-btns">
-                                <ul>
-                                    <li className="buttons">
-                                        <a href="#">app</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">business</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">corporation</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">creative</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">design</a>
-                                    </li>
-                                    <li className="buttons">
-                                        <a href="#">fashion</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </Col>
+                    
                 </Row>
-                <Row>
-                    <Col xs="12">
-                        <div className="brand-container">
-                            <Row>
-                                <Col md="6">
-                                    <div className="link-horizontal">
-                                        <ul>
-                                            <li>
-                                                <a className="center-content" href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/1.png" />
-                                                </a>
-                                            </li>
-                                            <li className="borders-right p-0"></li>
-                                            <li>
-                                                <a className="center-content" href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/2.png" />
-                                                </a>
-                                            </li>
-                                            <li className="borders-right p-0"></li>
-                                            <li>
-                                                <a className="center-content" href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/3.png" />
-                                                </a>
-                                            </li>
-                                            <li className="borders-right p-0"></li>
-                                            <li>
-                                                <a className="center-content" href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/4.png" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                                <Col md="6">
-                                    <div className="list float-end">
-                                        <ul>
-                                            <li>
-                                                <a href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/paytm-1.png" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/paytm-2.png" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/paytm-3.png" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <img alt="" className="img-fluid" src="/assets/images/agency/brand/paytm-4.png" />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Col>
-                </Row>
+                
             </Container>
         </footer>
         <div className="agency copyright">
@@ -206,19 +100,13 @@ const Footer = () => (
                         <div className="link-horizontal">
                             <ul>
                                 <li>
-                                    <a className="copyright-text" href="#">Privacy Policy</a>
+                                    <a className="copyright-text" href="#">Copyright © 2022 Slonigiraf</a>
                                 </li>
-                                <li>
-                                    <a className="copyright-text" href="#">Terms &amp; Conditions</a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </Col>
-                    <Col md="6">
-                        <div>
-                            <h6 className="copyright-text text-white text-end">Copyright © 2022 Slonigiraf</h6>
-                        </div>
-                    </Col>
+                    
                 </Row>
             </Container>
         </div>

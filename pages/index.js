@@ -43,10 +43,8 @@ const Home = () => {
 
         {/* <PricingSection /> */}
         <TestimonialSection />
-        
+
         <ExpertSection />
-
-
 
         <BlogSection />
 
