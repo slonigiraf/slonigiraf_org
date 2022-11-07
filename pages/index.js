@@ -19,7 +19,7 @@ const Home = () => {
     document.body.style.setProperty('--primary', '#0368b4')
     document.body.style.setProperty('--secondary', '#464545')
     document.body.style.setProperty('--light', '#1F357D')
-    document.body.style.setProperty('--dark', '#04185B')
+    document.body.style.setProperty('--dark', '#0368b4')
   })
 
   return (

@@ -13,12 +13,12 @@ const Banner = () => (
                                     <h1 className="text-uppercase"><span className="bold-text">SLON</span>igiraf</h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p>We help people to better understand each other to accelerate the development of technology and create world peace</p>
+                                    <p>We accelerate the development of technology <br/> and create world peace by helping people <br/> better understand each other</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className=" btn btn-default btn-gradient" href='https://t.me/denisreshetov'>request a quote</a>
+                                            <a className=" btn btn-default btn-gradient" href='https://t.me/denisreshetov'>ask a question</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default btn-gradient text-white active" href='https://www.patreon.com/reshetovdenis'>donate</a>

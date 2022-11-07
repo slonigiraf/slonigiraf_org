@@ -1,11 +1,11 @@
 export const MENUITEMS = [
-   {
-      title: 'Solutions', type: 'sub', children: [
-         { path: '/layouts/agency', title: 'Soft skills for the peace', type: 'link' },
-         { path: '/layouts/app1', title: 'Schools | Universities', type: 'link' },
-         { path: '/layouts/app2', title: 'Corporate education', type: 'link', },
-      ],
-   },
+   // {
+   //    title: 'Solutions', type: 'sub', children: [
+   //       { path: '/layouts/agency', title: 'Soft skills for the peace', type: 'link' },
+   //       { path: '/layouts/app1', title: 'Schools | Universities', type: 'link' },
+   //       { path: '/layouts/app2', title: 'Corporate education', type: 'link', },
+   //    ],
+   // },
    {
       title: 'Follow us', type: 'sub', children: [
          { path: 'https://t.me/slonigiraf', title: 'Telegram', type: 'link' },

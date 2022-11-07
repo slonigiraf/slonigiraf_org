@@ -17,17 +17,11 @@ const About = () => {
                         <div className="agency-header-center-container">
                             <div className="borders"></div>
                             <div className="agency-head">
-                                <h3 className="agency-head-text">We Are Here <span className="block-span">For Made Your Idea</span></h3>
+                                <h3 className="agency-head-text">How we help people<span className="block-span">to better understand each other</span></h3>
                             </div>
                         </div>
     
-                        <p className="agency-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusm od tempor
-                            incididunt
-                            ut labore et dolore magna aliqua ut enim adminim veni am for humanity for
-                            savings
-                            anything
-                            for your future.</p>
+                        <p className="agency-para">For three years of work with psychologists and educators, we have created a training course thanks to which any person in 3 hours can master the basic soft skills in order to successfully listen, interact and teach.</p>
                         <a className=" btn btn-default btn-gradient" href="#">view more</a>
                     </Col>
                 </Row>
