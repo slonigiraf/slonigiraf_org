@@ -58,7 +58,7 @@ const Expert = () => (
                                 <div className="text-center">
                                     <div className="team-img">
                                         <img alt="" className="img-fluid" src={item.photo} />
-                                        <div className="overlay"></div>
+                                        {/* <div className="overlay"></div>
                                         <div className="social">
                                             <ul>
                                                 <li>
@@ -82,7 +82,7 @@ const Expert = () => (
                                                     </a>
                                                 </li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="employee">
                                         <h5 className="e-name">{item.title}</h5>
