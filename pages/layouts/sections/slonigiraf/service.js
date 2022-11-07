@@ -11,7 +11,7 @@ const Service = () => (
                                 <span>Our services</span>
                             </h6>
                             <div className="format-head-text">
-                                <h2 className="about-font-header">We’re focused<span className="block-span">
+                                <h2 className="about-font-header">We’re focused <span className="block-span">
                                                 on education</span></h2>
                             </div>
                             <div className="format-sub-text">
@@ -38,7 +38,7 @@ const Service = () => (
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
                                         <img alt="" src="/assets/images/agency/service/1.png" />
-                                        <h5>Skill certicicates</h5>
+                                        <h5>Skill certificates</h5>
                                     </a>
                                 </li>
                                 <li className="about-icon">
