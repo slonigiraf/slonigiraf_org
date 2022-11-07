@@ -11,8 +11,8 @@ const Service = () => (
                                 <span>Our services</span>
                             </h6>
                             <div className="format-head-text">
-                                <h2 className="about-font-header">Services we’re <span className="block-span">
-                                                provided</span></h2>
+                                <h2 className="about-font-header">We’re focused<span className="block-span">
+                                                on education</span></h2>
                             </div>
                             <div className="format-sub-text">
                                 <p className="about-para">We integrate our vision of education and methods of monitoring results in all possible target areas.</p>

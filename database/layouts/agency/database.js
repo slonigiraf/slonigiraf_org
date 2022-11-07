@@ -49,28 +49,28 @@ module.exports = {
 
     TestimonialData: [
         {
-            photo: '/assets/images/agency/testimonial/1.png',
-            name: 'Kolan Motto',
-            role: 'CEO, Therat',
-            details: 'It goes without saying that customer data sec urity and compliance is top of mind in most retail board rooms is top.'
+            photo: '/assets/images/agency/testimonial/araslanova.png',
+            name: 'Karina Araslanova',
+            role: 'History teacher, Lyceum No. 9, Slobodskoy city',
+            details: 'Students like that during such lessons they can talk with absolutely any classmate, move around the classroom. The technique is convenient not only for children, but also for teachers.'
         },
         {
-            photo: '/assets/images/agency/testimonial/2.png',
-            name: 'Kolan Motto',
-            role: 'CEO, Therat',
-            details: 'It goes without saying that customer data sec urity and compliance is top of mind in most retail board rooms is top.'
+            photo: '/assets/images/agency/testimonial/shulchenko.png',
+            name: 'Valery Shulchenko',
+            role: 'Head of Sales Department Development, Logistics company',
+            details: 'Slonigiraf gives us a brand new tool that encourages employees to share their knowledge with each other, helping us to hedge against employee mistakes.'
         },
         {
-            photo: '/assets/images/agency/testimonial/2.png',
-            name: 'Kolan Motto',
-            role: 'CEO, Therat',
-            details: 'It goes without saying that customer data sec urity and compliance is top of mind in most retail board rooms is top.'
+            photo: '/assets/images/agency/testimonial/lebedincev.png',
+            name: 'Vladimir Lebedintsev',
+            role: 'PhD, Associate Professor, Krasnoyarsk regional institute for educators training',
+            details: 'It\'s interesting to observe how the project team manages to focus on the importance of personal freedom, self-determination of students and live communication in the learning process.'
         },
         {
-            photo: '/assets/images/agency/testimonial/2.png',
-            name: 'Kolan Motto',
-            role: 'CEO, Therat',
-            details: 'It goes without saying that customer data sec urity and compliance is top of mind in most retail board rooms is top.'
+            photo: '/assets/images/agency/testimonial/shirokova.png',
+            name: 'Elena Shirokova',
+            role: 'English teacher, Family education center, Saratov city',
+            details: 'I was pleased with the results. The kids enjoyed it. Those children who were mentors felt more confident. Most of the child mentors really tried to teach others, they felt responsible.'
         },
     ],
 
