@@ -18,7 +18,7 @@ const Banner = () => (
                                 <div className="link-horizontal">
                                     <ul>
                                         <li>
-                                            <a className=" btn btn-default btn-gradient" href='https://t.me/denisreshetov'>ask a question</a>
+                                            <a className=" btn btn-default btn-gradient" href='https://slon-i-giraf.ru/app/work?language=ENG'>start now</a>
                                         </li>
                                         <li>
                                             <a className="btn btn-default btn-gradient text-white active" href='https://www.patreon.com/reshetovdenis'>donate</a>
