@@ -31,7 +31,7 @@ module.exports = {
             details: 'Team Leader. Has experience in managing large projects in the field of education, as well as scientific work in the field of studying the human brain.'
         },
         {
-            photo: '/assets/images/agency/team/andreeva.png',
+            photo: '/assets/images/agency/team/andreeva2.png',
             title: 'Natalie Andreeva',
             details: 'Chief Business Development Officer. Natali has many years of experience in financial management in fintech and educational projects.'
         },
