@@ -32,7 +32,7 @@ const Footer = () => (
                     </Col>
                     <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">services</h3>
+                            <h3 className="text-white">contact us</h3>
                         </div>
                         <div className="footer-contant">
                             <h5 className="footer-headings">contact us</h5>
@@ -51,7 +51,7 @@ const Footer = () => (
                     </Col>
                     <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">brand</h3>
+                            <h3 className="text-white">learn</h3>
                         </div>
                         <div className="footer-contant">
                             <h5 className="footer-headings">learn</h5>
@@ -70,7 +70,7 @@ const Footer = () => (
                    
                     <Col lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
-                            <h3 className="text-white">brand</h3>
+                            <h3 className="text-white">Community</h3>
                         </div>
                         <div className="footer-contant">
                             <h5 className="footer-headings">Community</h5>
