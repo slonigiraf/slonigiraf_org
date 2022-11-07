@@ -21,8 +21,9 @@ const About = () => {
                             </div>
                         </div>
     
-                        <p className="agency-para">For three years of work with psychologists and educators, we have created a training course thanks to which any person in 3 hours can master the basic soft skills in order to successfully listen, interact and teach.</p>
-                        <a className=" btn btn-default btn-gradient" href="#">view more</a>
+                        <p className="agency-para">For three years of work with psychologists and educators, we have created a peer to peer training course thanks to which any person in 3 hours can master the basic soft skills in order to successfully listen, interact and teach.</p>
+                        <p className="agency-para">We also provide a free web application that allows you to reward teachers who spread the skills needed by patrons and employers.</p>
+                        <a className=" btn btn-default btn-gradient" href="https://github.com/slonigiraf/slon-whitepaper/blob/main/ENG.md">view more</a>
                     </Col>
                 </Row>
             </Container>

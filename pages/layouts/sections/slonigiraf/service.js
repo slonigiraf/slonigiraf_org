@@ -15,10 +15,9 @@ const Service = () => (
                                                 provided</span></h2>
                             </div>
                             <div className="format-sub-text">
-                                <p className="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt.</p>
+                                <p className="about-para">We integrate our vision of education and methods of monitoring results in all possible target areas.</p>
                             </div>
-                            <a className=" btn btn-default btn-gradient" href="#">view more</a>
+                            <a className=" btn btn-default btn-gradient" href="https://github.com/slonigiraf/slon-whitepaper/blob/main/ENG.md">view more</a>
                         </div>
                     </div>
                 </Col>
@@ -28,8 +27,8 @@ const Service = () => (
                             <ul className="icon-collection" data-aos="fade-left" data-aos-duration="500">
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
-                                        <img alt="" src="/assets/images/agency/service/1.png" />
-                                        <h5>Buisness Planning</h5>
+                                        <img alt="" src="/assets/images/agency/service/6.png" />
+                                        <h5>"Pay for peace" program</h5>
                                     </a>
                                 </li>
                             </ul>
@@ -38,14 +37,14 @@ const Service = () => (
                             <ul className="icon-collection" data-aos="fade-left" data-aos-duration="2000">
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
-                                        <img alt="" src="/assets/images/agency/service/2.png" />
-                                        <h5>Divorce Planning</h5>
+                                        <img alt="" src="/assets/images/agency/service/1.png" />
+                                        <h5>Skill certicicates</h5>
                                     </a>
                                 </li>
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
                                         <img alt="" src="/assets/images/agency/service/3.png" />
-                                        <h5>Finance Planning</h5>
+                                        <h5>Education Finance Planning</h5>
                                     </a>
                                 </li>
                             </ul>
@@ -55,19 +54,19 @@ const Service = () => (
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
                                         <img alt="" src="/assets/images/agency/service/4.png" />
-                                        <h5>Estate Planning</h5>
+                                        <h5>School education</h5>
+                                    </a>
+                                </li>
+                                <li className="about-icon">
+                                    <a className="center-content" href="#">
+                                        <img alt="" src="/assets/images/agency/service/2.png" />
+                                        <h5>Higher education</h5>
                                     </a>
                                 </li>
                                 <li className="about-icon">
                                     <a className="center-content" href="#">
                                         <img alt="" src="/assets/images/agency/service/5.png" />
-                                        <h5>Building Planning</h5>
-                                    </a>
-                                </li>
-                                <li className="about-icon">
-                                    <a className="center-content" href="#">
-                                        <img alt="" src="/assets/images/agency/service/6.png" />
-                                        <h5>Invest Planning</h5>
+                                        <h5>Corporate education</h5>
                                     </a>
                                 </li>
                             </ul>

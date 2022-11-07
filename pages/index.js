@@ -41,11 +41,12 @@ const Home = () => {
 
         <WorkSection />
 
-        <PricingSection />
-
+        {/* <PricingSection /> */}
+        <TestimonialSection />
+        
         <ExpertSection />
 
-        <TestimonialSection />
+
 
         <BlogSection />
 

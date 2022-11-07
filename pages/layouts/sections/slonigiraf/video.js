@@ -24,7 +24,7 @@ const Video = () => {
                                             <Modal isOpen={modal} toggle={toggle} centered={true} size="lg">
                                                 <ModalHeader toggle={toggle} className="modal-no-header close-up"></ModalHeader>
                                                 <ModalBody className="iframe-modal">
-                                                    <iframe className="mfp-iframe" frameBorder="0" allowFullScreen="" src="//www.youtube.com/embed/dNIfsv1rKJo?autoplay=1"></iframe>
+                                                    <iframe className="mfp-iframe" frameBorder="0" allowFullScreen="" src="//www.youtube.com/embed/zmBrRB7o8Sw?autoplay=1"></iframe>
                                                 </ModalBody>
                                             </Modal>
                                         </div>
@@ -34,10 +34,8 @@ const Video = () => {
                                                     src="/assets/images/agency/videos/title-icon.png" />
                                             </a>
                                             <div>
-                                                <h3 className="video-heading text-white text-center"> Amazing Videos &
-                                                    Presentations</h3>
-                                                <h6 className="video-text text-white  text-center">We create. We Develop. We
-                                                    Inspire.</h6>
+                                                <h3 className="video-heading text-white text-center">How we transfrom school education</h3>
+                                                <h6 className="video-text text-white  text-center">We empower students to share their knowledge while controlling the quality of learning through game theory and our software.</h6>
                                             </div>
                                         </div>
                                     </div>
