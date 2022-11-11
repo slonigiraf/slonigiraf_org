@@ -19,7 +19,7 @@ const Video = () => {
                                         <div className="m-b-20">
                                             <a className="button" href="#javascript" onClick={toggle}>
                                                 <img alt="" className="img-fluid video-img"
-                                                    src="/assets/images/agency/videos/icon.png" />
+                                                    src="/assets/images/agency/videos/icon-slon.png" />
                                             </a>
                                             <Modal isOpen={modal} toggle={toggle} centered={true} size="lg">
                                                 <ModalHeader toggle={toggle} className="modal-no-header close-up"></ModalHeader>
@@ -34,7 +34,7 @@ const Video = () => {
                                                     src="/assets/images/agency/videos/title-icon.png" />
                                             </a>
                                             <div>
-                                                <h3 className="video-heading text-white text-center">How we transfrom school education</h3>
+                                                <h3 className="video-heading text-white text-center">View how we transform school education</h3>
                                                 <h6 className="video-text text-white  text-center">We empower students to share their knowledge while controlling the quality of learning through game theory and our software.</h6>
                                             </div>
                                         </div>
