@@ -77,10 +77,10 @@ const Footer = () => (
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="http://ws.slonigiraf.org/#/accounts">Join</a>
+                                        <a href="http://ui.slonigiraf.org/#/accounts">Join</a>
                                     </li>
                                     <li>
-                                        <a href="http://ws.slonigiraf.org/#/democracy">Submit a proposal</a>
+                                        <a href="http://ui.slonigiraf.org/#/democracy">Submit a proposal</a>
                                     </li>
                                     
                                 

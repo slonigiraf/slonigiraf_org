@@ -16,11 +16,11 @@ export const MENUITEMS = [
    },
    {
       title: 'Participate', type: 'sub', children: [
-         { path: 'http://ws.slonigiraf.org/#/accounts', title: 'Join us', type: 'link' },
-         { path: 'http://ws.slonigiraf.org/#/democracy', title: 'Submit a proposal', type: 'link' },
+         { path: 'http://ui.slonigiraf.org/#/accounts', title: 'Join us', type: 'link' },
+         { path: 'http://ui.slonigiraf.org/#/democracy', title: 'Submit a proposal', type: 'link' },
          { path: 'https://github.com/slonigiraf/', title: 'Github', type: 'link' },
          { path: 'https://github.com/slonigiraf/slon-whitepaper/blob/main/ENG.md', title: 'Read the whitepaper', type: 'link' },
-         { path: 'http://ws.slonigiraf.org/#/council', title: 'Vote', type: 'link', },
+         { path: 'http://ui.slonigiraf.org/#/council', title: 'Vote', type: 'link', },
       ]
    },
 ]
