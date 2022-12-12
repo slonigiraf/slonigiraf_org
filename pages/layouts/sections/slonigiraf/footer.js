@@ -58,7 +58,7 @@ const Footer = () => (
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="https://github.com/slonigiraf/slon-whitepaper/blob/main/ENG.md">Whitepaper</a>
+                                        <a href="https://github.com/slonigiraf/whitepaper/blob/main/slon/ENG.md">Whitepaper</a>
                                     </li>
                                     <li>
                                         <a href="https://github.com/slonigiraf/">Our Github</a>
