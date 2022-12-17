@@ -17,7 +17,7 @@ const Service = () => (
                             <div className="format-sub-text">
                                 <p className="about-para">We integrate our vision of education and methods of monitoring results in all possible target areas.</p>
                             </div>
-                            <a className=" btn btn-default btn-gradient" href="https://github.com/slonigiraf/whitepaper/blob/main/slon/ENG.md">view more</a>
+                            <a className=" btn btn-default btn-gradient" href="https://github.com/slonigiraf/whitepaper/blob/main/slonigiraf/ENG.md">view more</a>
                         </div>
                     </div>
                 </Col>
