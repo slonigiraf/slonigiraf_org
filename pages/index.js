@@ -1,56 +1,65 @@
 import React, {useEffect} from 'react'
 import Head from 'next/head'
 // import Custom Components
-import Header from './layouts/sections/slonigiraf/header'
-import BannerSection from './layouts/sections/slonigiraf/banner'
-import AboutSection from './layouts/sections/slonigiraf/about'
-import ServiceSection from './layouts/sections/slonigiraf/service'
-import VideoSection from './layouts/sections/slonigiraf/video'
-import WorkSection from './layouts/sections/slonigiraf/work'
-import PricingSection from './layouts/sections/slonigiraf/pricing'
-import ExpertSection from './layouts/sections/slonigiraf/expert'
-import TestimonialSection from './layouts/sections/slonigiraf/testimonial'
-import BlogSection from './layouts/sections/slonigiraf/blog'
-import FooterSection from './layouts/sections/slonigiraf/footer'
+import Header from './layouts/sections/slonig/header'
+import BannerSection from './layouts/sections/slonig/banner'
+import AboutSection from './layouts/sections/slonig/about'
+import ServicesSection from './layouts/sections/slonig/services'
+import FormatSection from './layouts/sections/slonig/format'
+import TeamSection from './layouts/sections/slonig/team'
+import ScreenshotSection from './layouts/sections/slonig/screenshot'
+import MemberSection from './layouts/sections/slonig/member'
+import PricingSection from './layouts/sections/slonig/pricing'
+import ClientSection from './layouts/sections/slonig/client'
+import FooterSection from './layouts/sections/slonig/footer'
+import CopyrightSection from './layouts/sections/slonig/copyright'
 
 const Home = () => {
  
   useEffect(() => {
-    document.body.style.setProperty('--primary', '#0368b4')
-    document.body.style.setProperty('--secondary', '#464545')
-    document.body.style.setProperty('--light', '#1F357D')
-    document.body.style.setProperty('--dark', '#0368b4')
+    document.body.style.setProperty('--primary', '#f19135')
+    document.body.style.setProperty('--secondary', '#434345')
+    document.body.style.setProperty('--light', '#f19135')
+    document.body.style.setProperty('--dark', '#f19135')
   })
 
   return (
-    <div className="theme-color" >
+      <div className="theme-color" >
         <Head>
-            <title>Slonigiraf </title>
-            <meta name='Agency Layout' content='' />
+          <title>Slonig - best teaching App ever!</title>
         </Head>
 
-        <Header className="agency" />
+        <Header />
 
         <BannerSection />
 
         <AboutSection />
 
-        <ServiceSection />
+        <ServicesSection />
 
-        <VideoSection />
+        <FormatSection />
 
-        <WorkSection />
+        <TeamSection /> 
 
-        {/* <PricingSection /> */}
-        <TestimonialSection />
+        <ScreenshotSection />
 
-        <ExpertSection />
+        <MemberSection />
 
-        <BlogSection />
+        <PricingSection />
+      
+        <ClientSection />
 
         <FooterSection />
 
-    </div>
+        <CopyrightSection />
+
+        {/* Tap on Top */}
+        <div className="tap-top">
+            <div><i className="fa fa-angle-double-up"></i></div>
+        </div>
+        {/* Tap on Ends */}
+        
+      </div>
   )
 }
 
