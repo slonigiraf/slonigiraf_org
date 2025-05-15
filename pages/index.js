@@ -16,10 +16,10 @@ import FooterSection from './layouts/sections/slonigiraf/footer'
 const Home = () => {
  
   useEffect(() => {
-    document.body.style.setProperty('--primary', '#0368b4')
+    document.body.style.setProperty('--primary', '#0069B4')
     document.body.style.setProperty('--secondary', '#464545')
-    document.body.style.setProperty('--light', '#1F357D')
-    document.body.style.setProperty('--dark', '#0368b4')
+    document.body.style.setProperty('--light', '#F6A857')
+    document.body.style.setProperty('--dark', '#F19135')
   })
 
   return (
