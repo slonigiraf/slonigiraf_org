@@ -61,7 +61,7 @@ function MyFunctionComponent({ children }) {
     <>
       <ApolloProvider client={client}>
         <Head>
-          <title>Slonigiraf - to better understand each other </title>
+          {/* <title></title> */}
         </Head>
         {loader &&
           <div className="loader-wrapper">

@@ -24,8 +24,8 @@ const Home = () => {
   return (
     <div className="theme-color" >
         <Head>
-            <title>Slonigiraf </title>
-            <meta name='Agency Layout' content='' />
+            <title>Slonig | Effortless Teaching Through Peer Exchange</title>
+            <meta name='Slonig | Effortless Teaching Through Peer Exchange' content='' />
         </Head>
 
         <Header className="agency" />
