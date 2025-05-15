@@ -48,14 +48,6 @@ const Banner = () => (
                 <div className="plus white">
                 </div>
             </div>
-            <div className="circle-container">
-                <div className="gradient-circle-big">
-                </div>
-            </div>
-            <div className="circle-container small">
-                <div className="gradient-circle-small">
-                </div>
-            </div>
         </div>
         <div className="plus-container">
             <div className="plus">
