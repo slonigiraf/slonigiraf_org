@@ -10,7 +10,7 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1 className="text-uppercase"><span className="bold-text">SLON</span>igiraf</h1>
+                                    <h1><span className="bold-text">Slonig</span></h1>
                                 </div>
                                 <div className="header-sub-text">
                                     <p>We accelerate the development of technology <br/> and create world peace by helping people <br/> better understand each other</p>

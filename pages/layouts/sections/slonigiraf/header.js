@@ -20,26 +20,7 @@ const Header = props => {
                     <Col>
                         <nav>
                             <a className="m-r-auto" href="/">
-                                {props.className == 'agency' ?
-                                    <img alt="" className="img-fluid" src="/assets/images/logo/named-logo.png" />
-                                    :
-                                    props.className == 'dark' ?
-                                        <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
-                                        :
-                                        props.className == 'dark position-relative ecommerce' ?
-                                            <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
-                                            :
-                                            props.className == 'dark bg-white ecommerce' ?
-                                            <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
-                                            :
-                                                props.className == 'dark agency' ?
-                                                    <img alt="" className="img-fluid" src="/assets/images/logo/5.png" />
-                                                    :
-                                                    props.className == 'saas1' ?
-                                                        <img alt="" className="img-fluid" src="/assets/images/logo/3.png" />
-
-                                                        : <img alt="" className="img-fluid" src="/assets/images/logo/1.png" />
-                                }
+                                <img alt="" className="img-fluid" src="/assets/images/logo/named-logo.svg" style={{ maxWidth: '150px' }} />
                             </a>
                             <div className="responsive-btn">
                                 <a className="toggle-nav" onClick={clickSidebar} >
