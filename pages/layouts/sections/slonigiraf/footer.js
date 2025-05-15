@@ -100,7 +100,7 @@ const Footer = () => (
                         <div className="link-horizontal">
                             <ul>
                                 <li>
-                                    <a className="copyright-text" href="#">Copyright © 2022 Slonigiraf</a>
+                                    <a className="copyright-text" href="#">Copyright © 2025 Denis Reshetov</a>
                                 </li>
                                 
                             </ul>

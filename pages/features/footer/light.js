@@ -59,7 +59,7 @@ const Light = () => (
                 </Col>
                 <Col xs="12">
                     <div className="m-l-auto center-para">
-                        <h6 className="copyright-text text-center">© 2022 Slonigiraf</h6>
+                        <h6 className="copyright-text text-center">© 2025 Denis Reshetov</h6>
                     </div>
                 </Col>
             </Row>

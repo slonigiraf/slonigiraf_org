@@ -18,7 +18,7 @@ const Copyright = () => (
                 </Col>
                 <Col sm="6">
                     <div>
-                        <h6 className="copyright-text text-white text-end">Copyright © 2022 Slonigiraf</h6>
+                        <h6 className="copyright-text text-white text-end">Copyright © 2025 Denis Reshetov</h6>
                     </div>
                 </Col>
             </Row>
