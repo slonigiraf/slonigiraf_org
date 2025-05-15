@@ -7,7 +7,6 @@ import AboutSection from './layouts/sections/slonigiraf/about'
 import ServiceSection from './layouts/sections/slonigiraf/service'
 import VideoSection from './layouts/sections/slonigiraf/video'
 import WorkSection from './layouts/sections/slonigiraf/work'
-import PricingSection from './layouts/sections/slonigiraf/pricing'
 import ExpertSection from './layouts/sections/slonigiraf/expert'
 import TestimonialSection from './layouts/sections/slonigiraf/testimonial'
 import BlogSection from './layouts/sections/slonigiraf/blog'
@@ -41,7 +40,6 @@ const Home = () => {
 
         <WorkSection />
 
-        {/* <PricingSection /> */}
         <TestimonialSection />
 
         <ExpertSection />

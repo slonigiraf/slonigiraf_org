@@ -10,10 +10,11 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1><span className="bold-text">Slonig</span></h1>
+                                    <h1>Let’s be honest: <br/>30 kids is just too much <br/>for a single teacher.</h1>
                                 </div>
                                 <div className="header-sub-text">
-                                    <p>We accelerate the development of technology <br/> and create world peace by helping people <br/> better understand each other</p>
+                                    <p>Slonig turns a classroom full of students into a space full of young tutors.
+                                    Using game theory, we ensure that every student actively participates in both learning and tutoring—while the teacher can finally rest and observe.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
@@ -60,15 +61,7 @@ const Banner = () => (
             <div className="plus">
             </div>
         </div>
-        <div className="plus-container plus-container2">
-            <div className="plus plus-medium">
-            </div>
-        </div>
         <div className="plus-container plus-container3">
-            <div className="plus plus-small">
-            </div>
-        </div>
-        <div className="plus-container plus-container4">
             <div className="plus plus-small">
             </div>
         </div>
