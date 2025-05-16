@@ -40,9 +40,7 @@ const Banner = () => (
             </Container>
         </div>
         <div className="set-abs abs-horizon-center girl-boy">
-            <Tilt perspective="20000" transitionSpeed="3000">
-                <img alt="" className="img-fluid" src="/assets/images/agency/slider/img.png" />
-            </Tilt>
+            <img alt="" className="img-fluid" src="/assets/images/agency/slider/img.png" />
             <div className="plus-container plus-container6">
                 <div className="plus white">
                 </div>
