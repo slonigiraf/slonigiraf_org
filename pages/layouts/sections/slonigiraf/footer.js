@@ -15,16 +15,16 @@ const Footer = () => (
 
                                 <ul className="d-d-flex footer-social social">
                                     <li className="footer-social-list">
-                                        <a href="https://t.me/slonigiraf/"><i aria-hidden="true" className="fa fa-telegram"></i></a>
+                                        <a href="https://x.com/denslon_eng"><i aria-hidden="true" className="fa fa-twitter"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="https://twitter.com/slonigiraf"><i aria-hidden="true" className="fa fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/denslon_eng"><i aria-hidden="true" className="fa fa-instagram"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="https://www.facebook.com/slonigiraf"><i aria-hidden="true" className="fa fa-facebook"></i></a>
+                                        <a href="https://www.youtube.com/@denslon_eng"><i aria-hidden="true" className="fa fa-youtube"></i></a>
                                     </li>
                                     <li className="footer-social-list">
-                                        <a href="https://www.youtube.com/channel/UC4pm5EviHUXuLt7AbAyz2Eg"><i aria-hidden="true" className="fa fa-youtube"></i></a>
+                                        <a href="https://www.linkedin.com/in/reshetovdenis"><i aria-hidden="true" className="fa fa-linkedin"></i></a>
                                     </li>
                                 </ul>
                             </div>
