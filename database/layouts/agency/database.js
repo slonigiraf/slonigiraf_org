@@ -55,10 +55,10 @@ module.exports = {
             details: 'Students like that during such lessons they can talk with absolutely any classmate, move around the classroom. The technique is convenient not only for children, but also for teachers.'
         },
         {
-            photo: '/assets/images/agency/testimonial/shulchenko.png',
-            name: 'Valery Shulchenko',
-            role: 'Head of Sales Department Development, Logistics company',
-            details: 'Slonig gives us a brand new tool that encourages employees to share their knowledge with each other, helping us to hedge against employee mistakes.'
+            photo: '/assets/images/agency/testimonial/skobelev.png',
+            name: 'Nikolay Skobelev',
+            role: 'Chemistry teacher, Compas, Budva',
+            details: 'The approach used in Slonig helps to enhance student motivation, communication, and interaction within the group. The students were interested in the new format. I think Slonig could be a convenient tool for education.'
         },
         {
             photo: '/assets/images/agency/testimonial/lebedincev.png',
