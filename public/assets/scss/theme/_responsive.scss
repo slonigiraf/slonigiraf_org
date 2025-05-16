@@ -6738,15 +6738,15 @@
   }
   .agency {
     &.header {
-      .bg {
-        background: $primary;
-      }
+      background-image: url("/assets/images/agency/slider/slider-small.png");
+      background-position: top right;
+      background-repeat: no-repeat;
       h1 {
-        color: $white;
+        // color: $white;
         margin-top: -10px;
       }
       p {
-        color: $white;
+        // color: $white;
       }
       .center-text {
         text-align: center;
@@ -7329,7 +7329,7 @@
       nav {
         a {
           img {
-            filter: brightness(0) invert(1);
+            // filter: brightness(0) invert(1);
           }
         }
       }
