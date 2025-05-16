@@ -11,7 +11,7 @@ const Footer = () => (
                                 <h3 className="text-white">About Us</h3>
                             </div>
                             <div className="footer-contant">
-                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/named-logo.png" />
+                                <img alt="" className="img-fluid footer-logo" src="/assets/images/logo/named-logo.svg" />
 
                                 <ul className="d-d-flex footer-social social">
                                     <li className="footer-social-list">
