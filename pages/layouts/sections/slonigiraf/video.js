@@ -7,7 +7,7 @@ const Video = () => {
         setModal(!modal)
     }
     return(
-        <section className="agency video video-bg p-0" id="video">
+        <section className="agency video video-bg p-0" id="video" style={{ marginTop: '10px' }}>
             <Container>
                 <Row>
                     <Col xs="12"  className="p-0">
@@ -34,8 +34,8 @@ const Video = () => {
                                                     src="/assets/images/agency/videos/title-icon.png" />
                                             </a>
                                             <div>
-                                                <h3 className="video-heading text-white text-center">View how we transform school education</h3>
-                                                <h6 className="video-text text-white  text-center">We empower students to share their knowledge while controlling the quality of learning through game theory and our software.</h6>
+                                                <h3 className="video-heading text-white text-center">View how we help teachers</h3>
+                                                <h6 className="video-text text-white  text-center">We empower students <br/>to share their knowledge <br/>while controlling the quality.</h6>
                                             </div>
                                         </div>
                                     </div>

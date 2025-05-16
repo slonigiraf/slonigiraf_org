@@ -32,11 +32,13 @@ const Home = () => {
 
         <BannerSection />
 
+        <VideoSection />
+
         <AboutSection />
 
         <ServiceSection />
 
-        <VideoSection />
+
 
         <WorkSection />
 
