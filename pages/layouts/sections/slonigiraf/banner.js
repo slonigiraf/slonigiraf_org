@@ -8,7 +8,7 @@ const Banner = () => (
                 <Row className="d-block d-md-none">
                     <Col md="6">
                         <div style={{ marginTop: "80px" }}>
-                            <img alt="" className="img-fluid" src="/assets/images/agency/slider/img.png" />
+                            <img alt="" style={{ width: "100%" }} src="/assets/images/agency/slider/img.png" />
                         </div>
                     </Col>
                 </Row>
