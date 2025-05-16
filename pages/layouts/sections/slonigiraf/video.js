@@ -29,13 +29,8 @@ const Video = () => {
                                             </Modal>
                                         </div>
                                         <div>
-                                            <a className="video w-100" href="">
-                                                <img alt="" className="img-fluid m-b-20"
-                                                    src="/assets/images/agency/videos/title-icon.png" />
-                                            </a>
                                             <div>
-                                                <h3 className="video-heading text-white text-center">View how we help teachers</h3>
-                                                <h6 className="video-text text-white  text-center">We empower students <br/>to share their knowledge <br/>while controlling the quality.</h6>
+                                                <h3 className="video-heading text-white text-center">See how we help teachers</h3>
                                             </div>
                                         </div>
                                     </div>
