@@ -36,10 +36,10 @@ const Testimonial = () => (
                 <Col md="5">
                     <div className="format-container m-b-50">
                         <h6 className="borders-before">
-                            <span>Happy Clients</span>
+                            <span>Happy Teachers</span>
                         </h6>
                         <div className="format-head-text">
-                            <h2 className=" text-white">Our technology <span className="block-span">changes all types of education</span></h2>
+                            <h2 className=" text-white">Slonig <span className="block-span">changes all types of education</span></h2>
                         </div>
                     </div>
                 </Col>

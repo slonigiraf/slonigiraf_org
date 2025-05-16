@@ -32,11 +32,6 @@ const Blog = () => (
                         <div className="main-title">
                             <h2 className="text-capitalize text-center">latest blog</h2>
                         </div>
-                        <div className="sub-title">
-                            <p className="text-center">
-                            Subscribe to our news to be aware of how the project develops
-                            </p>
-                        </div>
                     </div>
                 </Col>
                 <Col xs="12">

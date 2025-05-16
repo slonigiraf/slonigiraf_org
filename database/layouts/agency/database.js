@@ -58,7 +58,7 @@ module.exports = {
             photo: '/assets/images/agency/testimonial/shulchenko.png',
             name: 'Valery Shulchenko',
             role: 'Head of Sales Department Development, Logistics company',
-            details: 'Slonigiraf gives us a brand new tool that encourages employees to share their knowledge with each other, helping us to hedge against employee mistakes.'
+            details: 'Slonig gives us a brand new tool that encourages employees to share their knowledge with each other, helping us to hedge against employee mistakes.'
         },
         {
             photo: '/assets/images/agency/testimonial/lebedincev.png',
@@ -77,21 +77,21 @@ module.exports = {
     BlogData: [
         {
             id: 2,
-            url: "https://twitter.com/slonigiraf/status/1543926080511385600",
+            url: "https://medium.com/web3foundation/web3-foundation-grants-wave-13-recipients-3e948cd29f18",
             photo: '/assets/images/agency/blog/web3-slon.jpg',
-            title: 'Slonigiraf has received a grant from Web3',
+            title: 'Slonig has received a grant from Web3',
             date: 'July 4, 2022',
-            place: 'Twitter',
-            details: 'We\'re glad to report that Slonigiraf has received a grant from Web3 foundation to create a blockchain module for '
+            place: 'Medium',
+            details: 'We\'re glad to report that Slonig (Slonigiraf) has received a grant from Web3 foundation to create a blockchain module for '
         },
         {
             id: 3,
-            url: "https://twitter.com/slonigiraf/status/1538608621151567874",
+            url: "https://github.com/ipfs/devgrants/issues/156",
             photo: '/assets/images/agency/blog/ipfs-slon.jpg',
-            title: 'Slonigiraf has received a grant from IPFS',
+            title: 'Slonig has received a grant from IPFS',
             date: 'June 19, 2022',
-            place: 'Twitter',
-            details: 'We\'re proud to announce that Slonigiraf has received a grant from IPFS to add p2p file storage system to SLON reputation '
+            place: 'Github',
+            details: 'We\'re proud to announce that Slonig has received a grant from IPFS to add p2p file storage system to SLON reputation '
         },
         {
             id: 1,
