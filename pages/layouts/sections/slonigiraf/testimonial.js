@@ -39,7 +39,7 @@ const Testimonial = () => (
                             <span>Happy Teachers</span>
                         </h6>
                         <div className="format-head-text">
-                            <h2 className=" text-white">Slonig <span className="block-span">changes all types of education</span></h2>
+                            <h2 className=" text-white">Slonig <span className="block-span">eases teaching</span></h2>
                         </div>
                     </div>
                 </Col>
