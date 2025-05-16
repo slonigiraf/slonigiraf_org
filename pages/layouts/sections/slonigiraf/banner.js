@@ -1,20 +1,27 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
-import {Container,Row,Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 const Banner = () => (
     <section className="agency header" id="header">
         <div className="agency bg">
             <Container>
+                <Row className="d-block d-md-none">
+                    <Col md="6">
+                        <div style={{ marginTop: "80px" }}>
+                            <img alt="" className="img-fluid" src="/assets/images/agency/slider/img.png" />
+                        </div>
+                    </Col>
+                </Row>
                 <Row>
                     <Col md="6">
-                        <div className="center-text">
+                        <div className="center-text mt-0 mt-md-5">
                             <div>
                                 <div className="header-text">
-                                    <h1><b>Let’s be honest: <br/>30 kids is just too much <br/>for a single teacher</b></h1>
+                                    <h1><b>Let’s be honest: <br />30 kids is just too much <br />for a single teacher</b></h1>
                                 </div>
                                 <div className="header-sub-text">
                                     <p>Slonig turns a classroom full of students into a space full of young tutors.
-                                    Using game theory, we ensure that every student actively participates in both learning and tutoring—while the teacher can finally rest and observe.</p>
+                                        Using game theory, we ensure that every student actively participates in both learning and tutoring—while the teacher can finally rest and observe.</p>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>
