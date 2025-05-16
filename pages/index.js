@@ -38,11 +38,7 @@ const Home = () => {
 
         <ServiceSection />
 
-       
-
         <TestimonialSection />
-
-       
 
         <ExpertSection />
 

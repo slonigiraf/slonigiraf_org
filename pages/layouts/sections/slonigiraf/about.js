@@ -16,7 +16,7 @@ const About = () => {
                         <div className="agency-header-center-container">
                             <div className="borders"></div>
                             <div className="agency-head">
-                                <h2>We help students talk five times more about the lesson topic</h2>
+                                <h2>Slonig helps students talk five times more about the lesson topic</h2>
                             </div>
                         </div>
     
