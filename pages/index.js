@@ -38,11 +38,15 @@ const Home = () => {
 
         <ServiceSection />
 
-        <WorkSection />
+       
 
         <TestimonialSection />
 
+       
+
         <ExpertSection />
+
+        <WorkSection />
 
         <BlogSection />
 
