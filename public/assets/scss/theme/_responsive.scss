@@ -2208,6 +2208,16 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .agency {
+    &.header {
+      background-image: url("/assets/images/agency/slider/slider.png");
+      background-position: top center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
 @media only screen and (max-width: 991px) and (min-width: 576px) {
   .blog-sidebar {
     .post-container {
