@@ -30,7 +30,7 @@ const Video = () => {
                                         </div>
                                         <div>
                                             <div>
-                                                <h3 className="video-heading text-white text-center">See how we help teachers</h3>
+                                                <h3 className="video-heading text-white text-center">See how we support teachers</h3>
                                             </div>
                                         </div>
                                     </div>
