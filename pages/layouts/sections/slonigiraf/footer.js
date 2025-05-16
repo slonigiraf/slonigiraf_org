@@ -39,10 +39,10 @@ const Footer = () => (
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="mailto:reshetovdenis@gmail.com">reshetovdenis@gmail.com</a>
+                                        <a href="mailto:reshetovdenis@gmail.com" style={{ textTransform: "none" }}>reshetovdenis@gmail.com</a>
                                     </li>
                                     <li>
-                                        <a href="https://t.me/denisreshetov">@denisreshetov</a>
+                                        <a href="https://api.whatsapp.com/send?phone=38267887600">+38267887600, WhatsApp</a>
                                     </li>
                                    
                                 </ul>
@@ -77,10 +77,10 @@ const Footer = () => (
                             <div>
                                 <ul className="footer-lists op-text">
                                     <li>
-                                        <a href="http://ui.slonigiraf.org/#/accounts">Join</a>
+                                        <a href="https://bit.ly/denslon_talk">Join</a>
                                     </li>
                                     <li>
-                                        <a href="http://ui.slonigiraf.org/#/democracy">Submit a proposal</a>
+                                        <a href="https://www.patreon.com/denslon_eng">Support</a>
                                     </li>
                                     
                                 
