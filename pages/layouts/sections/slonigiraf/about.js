@@ -10,7 +10,6 @@ const About = () => {
     }, []);
     return (
         <section className="agency agency-content about-bg">
-            <h3 className="text-as-shadow">About <br/> us</h3>
             <Container>
                 <Row>
                     <Col xl="9" md="9"  className="offset-xl-3 offset-md-3">
