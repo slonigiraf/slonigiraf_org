@@ -772,6 +772,15 @@ section {
     }
   }
 }
+.header {
+  nav {
+    > a {
+      .img-fluid {
+        height: 65px;
+      }
+    }
+  }
+}
 .cart_qty_cls {
   position: absolute;
   background: #ff4c3b;
