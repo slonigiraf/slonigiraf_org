@@ -10,7 +10,7 @@ const Banner = () => (
                         <div className="center-text">
                             <div>
                                 <div className="header-text">
-                                    <h1>Let’s be honest: <br/>30 kids is just too much <br/>for a single teacher.</h1>
+                                    <h1><b>Let’s be honest: <br/>30 kids is just too much <br/>for a single teacher</b></h1>
                                 </div>
                                 <div className="header-sub-text">
                                     <p>Slonig turns a classroom full of students into a space full of young tutors.
