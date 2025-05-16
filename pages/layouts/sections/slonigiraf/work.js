@@ -38,7 +38,7 @@ const Work = () => (
                                 <h2 className="counts text-center">19</h2>
                             </div>
                             <div className="count-desc">
-                                <h5 className="text-center">Companies in touch</h5>
+                                <h5 className="text-center">Schools in touch</h5>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Work = () => (
                                 <h2 className="counts text-center">48439</h2>
                             </div>
                             <div className="count-desc">
-                                <h5 className="text-center">Skill certificates issued</h5>
+                                <h5 className="text-center">Digital badges issued</h5>
                             </div>
                         </div>
                     </div>

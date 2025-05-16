@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
-import {Container,Row,Col} from 'reactstrap'
-import {ExpertData} from '../../../../database/layouts/agency/database';
+import { Container, Row, Col } from 'reactstrap'
+import { ExpertData } from '../../../../database/layouts/agency/database';
 
 var settings = {
     dots: false,
@@ -10,22 +10,22 @@ var settings = {
     arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    responsive: [ 
-        { 
-            breakpoint: 369, 
-            settings: { slidesToShow: 1 } 
+    responsive: [
+        {
+            breakpoint: 369,
+            settings: { slidesToShow: 1 }
         },
-        { 
-            breakpoint: 479, 
-            settings: { slidesToShow: 2 } 
+        {
+            breakpoint: 479,
+            settings: { slidesToShow: 2 }
         },
-        { 
-            breakpoint: 767, 
-            settings: { slidesToShow: 3 } 
-        }, 
-        { 
-            breakpoint: 992, 
-            settings: { slidesToShow: 2 } 
+        {
+            breakpoint: 767,
+            settings: { slidesToShow: 3 }
+        },
+        {
+            breakpoint: 992,
+            settings: { slidesToShow: 2 }
         }
     ]
 };
@@ -37,14 +37,14 @@ const Expert = () => (
                 <Col lg="3" md="4">
                     <div className="format-container">
                         <h6 className="borders-before">
-                            <span>Meet our team</span>
+                            <span>Slonig developers</span>
                         </h6>
                         <div className="format-head-text">
-                            <h2>We work to facilitate mutual understanding of people</h2>
+                            <h2>We just want to support teachers</h2>
                         </div>
                         <div className="format-sub-text">
                             <p className="about-para">
-                            Our team consists of professionals in the field of education, psychology and web application development.
+                                We’ve spent years in the classroom, and we feel your pain. That’s why everything we do is about making your life easier.
                             </p>
                         </div>
                         {/* <a className=" btn btn-default btn-gradient" href="#">view more</a> */}
@@ -52,13 +52,13 @@ const Expert = () => (
                 </Col>
                 <Col lg="9" md="8">
                     <Slider {...settings}>
-                        {ExpertData.length > 0?
-                            ExpertData.map((item, index) => 
-                            <div className="item speker-container" key={`our-expert-team-${index}`}>
-                                <div className="text-center">
-                                    <div className="team-img">
-                                        <img alt="" className="img-fluid" src={item.photo} />
-                                        {/* <div className="overlay"></div>
+                        {ExpertData.length > 0 ?
+                            ExpertData.map((item, index) =>
+                                <div className="item speker-container" key={`our-expert-team-${index}`}>
+                                    <div className="text-center">
+                                        <div className="team-img">
+                                            <img alt="" className="img-fluid" src={item.photo} />
+                                            {/* <div className="overlay"></div>
                                         <div className="social">
                                             <ul>
                                                 <li>
@@ -83,15 +83,15 @@ const Expert = () => (
                                                 </li>
                                             </ul>
                                         </div> */}
-                                    </div>
-                                    <div className="employee">
-                                        <h5 className="e-name">{item.title}</h5>
-                                        <h6 className="post font-secondary">{item.details}</h6>
+                                        </div>
+                                        <div className="employee">
+                                            <h5 className="e-name">{item.title}</h5>
+                                            <h6 className="post font-secondary">{item.details}</h6>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        )
-                        :'Expert Details Not Found'}
+                            )
+                            : 'Expert Details Not Found'}
                     </Slider>
                 </Col>
             </Row>
