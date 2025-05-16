@@ -30,7 +30,7 @@ const Footer = () => (
                             </div>
                         </div>
                     </Col>
-                    <Col lg="3" md="3" sm="12">
+                    <Col id="contact" lg="3" md="3" sm="12">
                         <div className="footer-title mobile-title">
                             <h3 className="text-white">contact us</h3>
                         </div>

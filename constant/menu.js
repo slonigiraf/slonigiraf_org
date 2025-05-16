@@ -6,21 +6,25 @@ export const MENUITEMS = [
    //       { path: '/layouts/app2', title: 'Corporate education', type: 'link', },
    //    ],
    // },
+   
    {
-      title: 'Follow us', type: 'sub', children: [
-         { path: 'https://t.me/slonigiraf', title: 'Telegram', type: 'link' },
-         { path: 'https://twitter.com/slonigiraf', title: 'Twitter', type: 'link' },
-         { path: 'https://www.facebook.com/slonigiraf', title: 'Facebook', type: 'link', },
-         { path: 'https://www.youtube.com/channel/UC4pm5EviHUXuLt7AbAyz2Eg', title: 'Youtube', type: 'link', },
+      title: 'Participate', type: 'sub', children: [
+         { path: 'https://bit.ly/denslon_talk', title: 'Learn how to use', type: 'link' },
+         { path: 'https://www.patreon.com/denslon_eng', title: 'Donate', type: 'link' },
+         { path: 'https://github.com/slonigiraf', title: 'Github', type: 'link' },
+         { path: 'https://github.com/slonigiraf/whitepaper/blob/main/slonigiraf/ENG.md', title: 'Read the whitepaper', type: 'link' },
+         { path: '#contact', title: 'Contact', type: 'link' },
       ]
    },
    {
-      title: 'Participate', type: 'sub', children: [
-         { path: 'http://ui.slonigiraf.org/#/accounts', title: 'Join us', type: 'link' },
-         { path: 'http://ui.slonigiraf.org/#/democracy', title: 'Submit a proposal', type: 'link' },
-         { path: 'https://github.com/slonigiraf/', title: 'Github', type: 'link' },
-         { path: 'https://github.com/slonigiraf/whitepaper/blob/main/slonigiraf/ENG.md', title: 'Read the whitepaper', type: 'link' },
-         { path: 'http://ui.slonigiraf.org/#/council', title: 'Vote', type: 'link', },
+      title: 'Follow us', type: 'sub', children: [
+         { path: 'https://x.com/denslon_eng', title: 'X', type: 'link' },
+         { path: 'https://www.threads.com/@denslon_eng', title: 'Threads', type: 'link' },
+         { path: 'https://www.instagram.com/denslon_eng', title: 'Instagram', type: 'link', },
+         { path: 'https://www.youtube.com/@denslon_eng', title: 'Youtube', type: 'link', },
+         { path: 'https://www.teacherspayteachers.com/store/den-slon', title: 'TPT', type: 'link', },
+         { path: 'https://www.tiktok.com/@denslon_eng', title: 'TikTok', type: 'link', },
+         { path: 'https://www.linkedin.com/in/reshetovdenis', title: 'LinkedIn', type: 'link', },
       ]
    },
 ]
