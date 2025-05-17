@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Head from 'next/head'
 // import Custom Components
 import Header from './layouts/sections/slonigiraf/header'
+import Consent from './layouts/sections/slonigiraf/consent'
 import BannerSection from './layouts/sections/slonigiraf/banner'
 import AboutSection from './layouts/sections/slonigiraf/about'
 import ServiceSection from './layouts/sections/slonigiraf/service'
@@ -29,6 +30,8 @@ const Home = () => {
         </Head>
 
         <Header className="agency" />
+
+        <Consent />
 
         <BannerSection />
 
