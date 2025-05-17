@@ -62,9 +62,10 @@ const Consent = () => {
                     This site uses cookies, including Google Analytics and Yandex Metrika, to improve your experience and analyze traffic.
                     You can accept or reject non-essential cookies. Learn more in our <a href="/privacy-policy">Privacy Policy</a>.
                 </p>
+                <br/>
                 <div className="cookie-buttons">
-                    <button className="btn btn-secondary" onClick={() => handleConsent(false)}>Reject</button>
-                    <button className="btn btn-warning" onClick={() => handleConsent(true)}>Accept all</button>
+                    <button className="btn-default" onClick={() => handleConsent(false)}>Reject</button>
+                    <button className="btn-default btn-gradient" onClick={() => handleConsent(true)}>Accept all</button>
                 </div>
             </div>
         </div>
