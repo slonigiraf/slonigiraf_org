@@ -26,7 +26,10 @@ const Policy = () => {
 
       <section className="agency agency-content about-bg">
         <Container>
-          <Row>
+        <Row>&nbsp;</Row>
+        <Row>&nbsp;</Row>
+        <Row>&nbsp;</Row>
+          <Row style={{ textAlign: 'left' }}>
 
             <h3>Privacy Policy</h3>
             <p>Effective date: 2025.05.18</p>
@@ -100,7 +103,7 @@ const Policy = () => {
             <p>If you have questions or concerns about this policy, please contact us at:</p>
             <p>Email: <a href="mailto:reshetovdenis@gmail.com" style={{ textTransform: "none" }}>reshetovdenis@gmail.com</a></p>
 
-            
+
             <p>Address: 85331, Kotor, Montenegro, Kriva bb</p>
 
           </Row>
