@@ -63,6 +63,9 @@ const Footer = () => (
                                     <li>
                                         <a href="https://github.com/slonigiraf/">Our Github</a>
                                     </li>
+                                    <li>
+                                        <a href="/privacy-policy">Privacy policy</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
