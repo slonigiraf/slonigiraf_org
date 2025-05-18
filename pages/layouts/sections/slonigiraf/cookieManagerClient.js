@@ -11,8 +11,12 @@ const CookieManager = dynamic(
 const CookieManagerClient = () => {
   return (
     <CookieManager
-      title="Cookie Settings"
-      description="We use cookies to improve your experience. Manage your preferences below."
+      translations={{
+        title: "Cookie Preferences",
+        message: "We use cookies to improve your experience.",
+      }}
+      displayType="modal"
+      theme="light"
       onSave={(cookies) => {
         console.log('Saved cookie preferences:', cookies);
       }}
