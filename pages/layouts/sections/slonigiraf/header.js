@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Nav from './nav'
 import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
+import CookieManagerClient from './cookieManagerClient'
 
 const Header = props => {
     const [show, setShow] = useState(false)
@@ -15,6 +16,7 @@ const Header = props => {
 
     return (
         <header className={`${props.className || 'app2'} loding-header nav-abs custom-scroll  `}>
+            <CookieManagerClient />
             <Container>
                 <Row>
                     <Col>
