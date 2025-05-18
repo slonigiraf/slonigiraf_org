@@ -11,7 +11,7 @@ import ExpertSection from './layouts/sections/slonigiraf/expert'
 import TestimonialSection from './layouts/sections/slonigiraf/testimonial'
 import BlogSection from './layouts/sections/slonigiraf/blog'
 import FooterSection from './layouts/sections/slonigiraf/footer'
-
+import CookieManagerClient from './layouts/sections/slonigiraf/cookieManagerClient'
 
 const Home = () => {
  
@@ -28,6 +28,7 @@ const Home = () => {
             <title>Slonig | Effortless Teaching Through Peer Exchange</title>
             <meta name='Slonig | Effortless Teaching Through Peer Exchange' content='' />
         </Head>
+        <CookieManagerClient />
 
         <Header className="agency" />
 

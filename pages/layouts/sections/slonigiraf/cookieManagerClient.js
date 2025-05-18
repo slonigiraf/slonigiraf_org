@@ -20,6 +20,7 @@ const CookieManagerClient = () => {
       onSave={(cookies) => {
         console.log('Saved cookie preferences:', cookies);
       }}
+      privacyPolicyUrl="/privacy-policy"
     />
   );
 };
