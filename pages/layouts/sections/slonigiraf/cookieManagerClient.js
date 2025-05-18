@@ -68,18 +68,15 @@ const CookieManagerClient = () => {
       displayType="modal"
       theme="light"
       privacyPolicyUrl="/privacy-policy"
-      onSave={(cookies) => {
-        console.log('Saved cookie preferences:', cookies);
-      }}
-      onAccept={(cookies) => {
-        console.log('Accepted cookies:', cookies);
+      onAccept={() => {
         loadAnalytics();
       }}
       onDecline={() => {
-        console.log('Declined cookies');
       }}
-      onManage={() => {
-        console.log('User opened cookie manager');
+      onManage={(preferences) => {
+        if (preferences?.Analytics) {
+          loadAnalytics();
+        }
       }}
     />
   );
