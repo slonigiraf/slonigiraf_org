@@ -38,8 +38,8 @@ const Policy = () => {
             <ul>
               <li>Personal identification information (name, email address, phone number, etc.)</li>
               <li>Technical data (IP address, browser type, device information, etc.)</li>
-              <li>Usage data (pages visited, time on site, etc.)</li>
-              <li>Cookies and similar tracking technologies</li>
+              <li>Usage data (pages visited, time on site, interactions, etc.)</li>
+              <li>Cookies and similar tracking technologies, including those from third-party services like Google Analytics and Yandex Metrica</li>
             </ul>
 
             <h4>2. How We Use Your Information</h4>
@@ -50,6 +50,7 @@ const Policy = () => {
               <li>Understand and analyze how you use our website</li>
               <li>Communicate with you (e.g., for support or marketing purposes)</li>
               <li>Comply with legal obligations</li>
+              <li>Analyze user behavior through third-party analytics tools (Google Analytics, Yandex Metrica)</li>
             </ul>
 
             <h4>3. Legal Basis for Processing</h4>
@@ -85,10 +86,10 @@ const Policy = () => {
             </ul>
 
             <h4>7. Data Retention</h4>
-            <p>We retain your personal data only as long as necessary to fulfill the purposes for which it was collected, or to comply with legal obligations.</p>
+            <p>We retain your personal data only as long as necessary to fulfill the purposes for which it was collected or to comply with legal obligations.</p>
 
             <h4>8. Cookies</h4>
-            <p>We use cookies and similar tracking technologies. You can manage your cookie preferences through your browser settings. For more information, see our Cookie Policy.</p>
+            <p>We use cookies and similar tracking technologies to enhance your experience. These cookies may include analytics cookies set by third parties. You can manage your cookie preferences through your browser settings. For more information, see our <a href="/cookie-policy" target="_blank">Cookie Policy</a>.</p>
 
             <h4>9. Children’s Privacy</h4>
             <p>Our services are not directed to children under the age of 13 (or the equivalent age in your jurisdiction). We do not knowingly collect personal data from children without parental consent.</p>
@@ -96,12 +97,24 @@ const Policy = () => {
             <h4>10. Changes to This Policy</h4>
             <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes and update the effective date at the top of this page.</p>
 
-            <h4>11. Contact Us</h4>
+            <h4>11. Analytics and Third-Party Services</h4>
+            <p>We use third-party services to analyze how visitors use our site and to improve our services:</p>
+
+            <h5>Google Analytics</h5>
+            <p>Google Analytics is a web analytics service provided by Google LLC. It uses cookies to track and report website traffic. The data collected is transmitted to and stored by Google on servers in the United States or other countries. Google may use this data for its own purposes, including to personalize ads.</p>
+            <p>You can learn more at <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google's Partner Sites Policy</a>.</p>
+            <p>You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.</p>
+
+            <h5>Yandex Metrica</h5>
+            <p>Yandex Metrica is a web analytics service provided by Yandex LLC. It helps us understand user interactions through heatmaps, session replays, and traffic analysis. Collected data may include pages visited, actions taken, and geographic location.</p>
+            <p>You can read more at <a href="https://yandex.com/legal/confidential/" target="_blank" rel="noopener noreferrer">Yandex’s Privacy Policy</a>.</p>
+            <p>You can disable Yandex Metrica by using the <a href="https://yandex.com/support/metrica/general/opt-out.html" target="_blank" rel="noopener noreferrer">Yandex Metrica Opt-Out Tool</a>.</p>
+
+            <h4>12. Contact Us</h4>
             <p>If you have questions or concerns about this policy, please contact us at:</p>
             <p>Email: <a href="mailto:reshetovdenis@gmail.com" style={{ textTransform: "none" }}>reshetovdenis@gmail.com</a></p>
-
-
             <p>Address: 85331, Kotor, Montenegro, Kriva bb</p>
+
 
           </Row>
           <Row>&nbsp;</Row>
