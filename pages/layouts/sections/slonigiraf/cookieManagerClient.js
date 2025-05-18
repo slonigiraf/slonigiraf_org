@@ -66,7 +66,7 @@ const CookieManagerClient = () => {
     <CookieManager
       translations={{
         title: "Cookie Preferences",
-        message: "We use cookies to improve your experience.",
+        message: "We use cookies to enhance your experience and analyze site usage. If you are under the age of consent required by your jurisdiction, please press Decline and do not proceed without parental or guardian approval. If you are an adult or have obtained the necessary consent, you may proceed and make your own choices.",
       }}
       displayType="modal"
       theme="light"
