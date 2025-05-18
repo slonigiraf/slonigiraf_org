@@ -24,12 +24,9 @@ const Policy = () => {
       <Header className="agency" />
 
 
-      <section className="agency agency-content about-bg">
+      <section className="agency header">
         <Container>
-        <Row>&nbsp;</Row>
-        <Row>&nbsp;</Row>
-        <Row>&nbsp;</Row>
-          <Row style={{ textAlign: 'left' }}>
+          <Row style={{ marginTop: "150px", marginBottom: "50px", textAlign: 'left' }}>
 
             <h3>Privacy Policy</h3>
             <p>Effective date: 2025.05.18</p>
@@ -107,6 +104,7 @@ const Policy = () => {
             <p>Address: 85331, Kotor, Montenegro, Kriva bb</p>
 
           </Row>
+          <Row>&nbsp;</Row>
         </Container>
       </section>
 
