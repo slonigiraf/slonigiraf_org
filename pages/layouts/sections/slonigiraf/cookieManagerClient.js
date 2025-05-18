@@ -9,30 +9,32 @@ const CookieManager = dynamic(
 );
 
 const loadAnalytics = () => {
-  // Prevent duplicate GA load
-  if (!document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
-    const gaScript = document.createElement('script');
-    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q8JF7VWSM1';
-    gaScript.async = true;
-    document.head.appendChild(gaScript);
-  }
+  if (location.hostname !== "localhost") {
 
-  const inlineScript = document.createElement('script');
-  inlineScript.innerHTML = `
+    // Prevent duplicate GA load
+    if (!document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+      const gaScript = document.createElement('script');
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-Q8JF7VWSM1';
+      gaScript.async = true;
+      document.head.appendChild(gaScript);
+    }
+
+    const inlineScript = document.createElement('script');
+    inlineScript.innerHTML = `
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-Q8JF7VWSM1');
   `;
-  document.head.appendChild(inlineScript);
+    document.head.appendChild(inlineScript);
 
-  // Load Yandex Metrika
-  const existingYM = Array.from(document.scripts).find(s => s.src === 'https://mc.yandex.ru/metrika/tag.js');
-  if (existingYM) return;
+    // Load Yandex Metrika
+    const existingYM = Array.from(document.scripts).find(s => s.src === 'https://mc.yandex.ru/metrika/tag.js');
+    if (existingYM) return;
 
-  const ymScript = document.createElement('script');
-  ymScript.type = 'text/javascript';
-  ymScript.innerHTML = `
+    const ymScript = document.createElement('script');
+    ymScript.type = 'text/javascript';
+    ymScript.innerHTML = `
     (function(m,e,t,r,i,k,a){
       m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
       m[i].l=1*new Date();
@@ -49,13 +51,14 @@ const loadAnalytics = () => {
       webvisor:true
     });
   `;
-  document.head.appendChild(ymScript);
+    document.head.appendChild(ymScript);
 
-  const noscript = document.createElement('noscript');
-  noscript.innerHTML = `
+    const noscript = document.createElement('noscript');
+    noscript.innerHTML = `
     <div><img src="https://mc.yandex.ru/watch/101962692" style="position:absolute; left:-9999px;" alt="" /></div>
   `;
-  document.body.appendChild(noscript);
+    document.body.appendChild(noscript);
+  }
 };
 
 const CookieManagerClient = () => {
